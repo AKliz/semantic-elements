@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML's Move to Semantic Tags</title>
+    <style>
+      header, footer {
+        background-color:black;
+        color:white;
+        padding:16px 0px;
+      }
+      header {
+        text-align:center;
+      }
+      nav ul {
+        padding-left:0px;
+      }
+      nav ul, nav li{
+        display:inline;
+        }
+      nav li a {
+        background-color: grey;
+        color: white;
+        padding: 8px;
+        text-decoration:none;
+        }
+      hr{
+        margin:32px 0px;
+
+        }
+      footer{
+        margin-top:64px;
+        text-align:right;
+        padding-right:8px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+    <h1>Semantic Elements</h1>
+
+    </header>
+    <main>
+      <section>
+        <h2>What is semantics in HTML?</h2>
+        <p >In the past html coders would write documents using basic non-descriptive HTML tags for example <strong>div</strong> and <strong>span</strong>. These tags are bad but they don't tell the computer much about the code.</p>
+        <p>With the introduction of HTML5 came the idea that we should also use HTML5 semantics which is pretty much alternatives to the <strong>div</strong> and <strong>span</strong> blank HTML tags. These new suggested tags include <strong>header</strong>, <strong>nav</strong>, <strong>section</strong>, <strong>article</strong> and <strong>footer</strong>. These are stronger HTML tags because they give meaning to the content they hold. This is especially important for when computers are reading your code for Assesibilty purposes and for your google rankings for when bots read your pages.</p>
+        <hr>
+        </section>
+        <section  cite="https://codepen.io/mi-lee/post/an-overview-of-html5-semantics">
+        <h2 >Why use semantic tags?</h2>
+        <h3>Primarily to enhace:</h3>
+        <p>
+            <ul>
+              <li>Accessibility - help assistive technologies read and interpret your webpage</li>
+              <li>Searchability - help computers make sense of your content</li>
+              <li>Interoperability - help other programmers understand the structure of your webpage</li>
+            </ul>
+          Source: <em>https://codepen.io/mi-lee/post/an-overview-of-html5-semantics</em>
+        </p>
+      </section>
+      <section>
+      <hr>
+      <section>
+        <h2>Want to learn more?</h2>
+        <p>Don't worry about memorizing every html tag right out of the gate. It takes time. Make sure you bookmark reliable resources you can always reference back to when coding a new document.</p>
+        <h3>Useful Links</h3>
+          <ul>
+            <li><a href="https://codepen.io/mi-lee/post/an-overview-of-html5-semantics">An Overview of HTML5 Semantics</a></li>
+            <li><a href="https://www.w3schools.com/html/html5_semantic_elements.asp">HTML Semantic Elements</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Possible HTML Elements</a></li>
+          </ul>
+      </section>
+    </main>
+    <footer>
+      <p>Document created by Liz Finch Cullivan for HTML101 class assignment.</p>
+    </footer>
+  </body>
+</html>
